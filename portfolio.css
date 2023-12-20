@@ -50,13 +50,14 @@ ul{
 	padding-bottom: 70px;
 }
 .section-title{
-	flex: 0 0 100;
+	flex: 0 0 100%;
 	max-width: 100%;
+	margin-bottom: 60px;
 }
 .section-title h2{
 	font-size: 40px;
 	color: var(--text-black-900);
-	font-weight: 700;
+	font-weight: 700px;
 	position: relative;
 }
 .section-title h2::before{
@@ -274,4 +275,27 @@ h3.my-proffession{
 	height: 350px;
 	width: 300px;
 	border-radius: 5px;
+}
+      /* About */
+.about .about-content{
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.about .about-content .about-text{
+	flex: 0 0 100%;
+	max-width: 90%;
+}
+.about .about-content .about-text h3{
+	font-size: 24px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	color: --var(--text-black-900);
+}
+.about .about-content .about-text span{
+	color: (--skin-color);
+}
+.about .about-content .about-text p{
+	font-size: 16px;
+	line-height: 25px;
+	color: var(--text-black-700);
 }
